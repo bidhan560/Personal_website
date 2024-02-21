@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bidhan Shrestha - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bidhan Shrestha</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>As an aspiring Computer Programming diploma student, I have developed a strong skill set through hands-on experience as a junior programmer at Xmart Point Technologies Pvt. Ltd. Skilled in various programming languages like Python, Java, HTML, CSS, JavaScript, and MySQL. Led the development of a POS Employee Management System, showing the ability to create comprehensive IT solutions. Dedication to punctuality and learning, along with enthusiasm for further improvement, forms the foundation of my work ethic. Eager to apply programming and IT skills in creative and challenging environments.</p>
+            <div class="skills">
+                <div class="skill">Python</div>
+                <div class="skill">Java</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">MySQL</div>
+            </div>
+            <div class="experience">
+                <div class="item">
+                    <h3>Computer Programming College Diploma</h3>
+                    <p>Sault College - Expected Graduation date: 05-2024</p>
+                </div>
+                <div class="item">
+                    <h3>Junior Programmer (Intern)</h3>
+                    <p>Xmartpoint - 1st Feb 2022 – 30th April, 2022</p>
+                </div>
+                <div class="item">
+                    <h3>Cook at La Carnita</h3>
+                    <p>La Carnita - March 2022 – Present</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="card">
+                    <h3>POS Employee Management System</h3>
+                    <p>Developed a POS Employee Management System at Xmart Point Technologies Pvt. Ltd.</p>
+                </div>
+                <div class="card">
+                    <h3>Word Guessing Game</h3>
+                    <p>Developed a word guessing game web application using Spring Boot and Thymeleaf.</p>
+                </div>
+                <div class="card">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Created a personal portfolio website to showcase projects using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form" method="POST" action="send_email.php">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email"><br>
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bidhan Shrestha</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
